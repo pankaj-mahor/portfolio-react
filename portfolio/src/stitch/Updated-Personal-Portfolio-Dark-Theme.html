@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Alex Rivers | Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d46f2",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101422",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 selection:bg-primary/30">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary p-2 rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-white">code</span>
+</div>
+<span class="text-xl font-bold tracking-tight">AR.</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#home">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#experience">Experience</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#skills">Skills</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+<a class="text-sm font-medium hover:text-primary transition-colors flex items-center gap-1" href="#">
+                Resume
+                <span class="material-symbols-outlined text-xs">download</span>
+</a>
+</nav>
+<button class="bg-primary hover:bg-primary/90 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all shadow-lg shadow-primary/20">
+            Get in Touch
+        </button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative overflow-hidden pt-20 pb-32" id="home">
+<div class="absolute top-0 right-0 -z-10 w-1/3 h-1/3 bg-primary/10 blur-[120px] rounded-full"></div>
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+                    Available for Work
+                </div>
+<div>
+<h1 class="text-5xl md:text-7xl font-black tracking-tight leading-[1.1] mb-6">
+                        Alex <span class="text-primary">Rivers</span>
+</h1>
+<p class="text-xl md:text-2xl font-medium text-slate-600 dark:text-slate-400 mb-4">
+                        Full Stack Developer
+                    </p>
+<p class="text-lg text-slate-500 dark:text-slate-500 leading-relaxed max-w-lg">
+                        Crafting digital experiences with precision and passion. 5+ years of experience building scalable web applications. Based in San Francisco.
+                    </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 hover:shadow-xl hover:shadow-primary/30 transition-all">
+                        View Work
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+<button class="bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-all border border-slate-300 dark:border-slate-700 flex items-center gap-2">
+<span class="material-symbols-outlined">description</span>
+                        Download Resume
+                    </button>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-slate-100 dark:border-slate-900 rotate-2">
+<img alt="Alex Rivers Portrait" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXbnEGG43MHsoWS4XF_uidDjz29XPTcC-wkNhtCkakb1LrUXi1H10K7-41N2z7Hab9j36xbz_hSucrdfNVN7_Qh39dJyECEyptxs_bjDGCKflpmRCUoTY05GheoXoeIh_FKDJDB-Jrh6Wj3n2AjwyUAgw5MtFGqWTfUsCWooSdHFadhYqvYXb4vkl9d47XM0fEl9870B67trpj1mKoNmjYDCUmApuN-77YKr4IQjCJgffZkuyKD4rs8KRwqN9Eaj7-cAVJcMfa3dI"/>
+</div>
+<div class="absolute -bottom-6 -left-6 bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-700">
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">bolt</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 dark:text-slate-400 uppercase font-bold tracking-tighter">Current Role</p>
+<p class="font-bold">Senior Dev @ TechFlow</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="py-24 bg-slate-50 dark:bg-slate-900/50" id="projects">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+<div>
+<h2 class="text-4xl font-black mb-4">Featured Projects</h2>
+<p class="text-slate-500 dark:text-slate-400 max-w-xl">
+                        A selection of my favorite works, ranging from complex enterprise dashboards to creative consumer applications.
+                    </p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 group">
+                    View All Projects 
+                    <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Project 1 -->
+<div class="group flex flex-col bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-2xl transition-all">
+<div class="relative aspect-video overflow-hidden">
+<img alt="E-commerce Analytics" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7tRLacgM75nas_OgvmKE30h9snQAR4YoU_Tz57QInl1ZV_z8En0D0DJv8_FNk3HXiYeXXjkKnPW1ov_vx1MpHxS_9jM8ax1YciJ_OhnezLXcr_XbDuHn9bzPt7XoHgdsAm9ZRrOHDDM_J_rokMai-DNmrsQ6GjzmR7H40h6RM7NGaYhhQGrxiUm3QwoHr4RCLs0mhwF3L5fF01tR5JXWJGBeQNd6Gpl4HjM18rj_F-mk-aLinqUpVFkekVHlE41UelDf1rAy5zEE"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/90 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Web App</span>
+</div>
+</div>
+<div class="p-8 flex flex-col grow">
+<h3 class="text-xl font-bold mb-2">Nexus Analytics</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                            A high-performance dashboard for global retailers to track inventory levels and customer sentiment in real-time.
+                        </p>
+<div class="flex items-center justify-between mt-auto">
+<div class="flex gap-2">
+<span class="text-[10px] bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded font-medium">React</span>
+<span class="text-[10px] bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded font-medium">GraphQL</span>
+</div>
+<a class="text-primary flex items-center gap-1 font-bold text-sm" href="#">
+                                Details <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Project 2 -->
+<div class="group flex flex-col bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-2xl transition-all">
+<div class="relative aspect-video overflow-hidden">
+<img alt="Fitness Tracker App" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpGhNkC0IJ5ytpEXPFuFE17qFH2Wk1SlDND_hQGrXvNPMYkpKS9sRB4Dnwgrg89yba_nsT6g9Smi0ZfbTan1s04d0vZ70-XqQf0ryqDZ-R26MODm2RRwtmsbp3TUjqcSdBwfp4J8fJ8_HwTDOH_pmaeUHDQD9oAuoDq88gMbyi-ixDDH-jjsJEwug4kBHyYlbNavgUBX9KvXO_jPnXBUQE7gKcha_-rTgl2Otv7yn7cdtpoi3UMzX54v0pAa2UOcf_PbhQbS-MtkY"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/90 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Mobile</span>
+</div>
+</div>
+<div class="p-8 flex flex-col grow">
+<h3 class="text-xl font-bold mb-2">Pulse Fit</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                            Native mobile experience for athletes focusing on recovery metrics and biometric synchronization.
+                        </p>
+<div class="flex items-center justify-between mt-auto">
+<div class="flex gap-2">
+<span class="text-[10px] bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded font-medium">Flutter</span>
+<span class="text-[10px] bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded font-medium">Firebase</span>
+</div>
+<a class="text-primary flex items-center gap-1 font-bold text-sm" href="#">
+                                Details <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Project 3 -->
+<div class="group flex flex-col bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 overflow-hidden hover:shadow-2xl transition-all">
+<div class="relative aspect-video overflow-hidden">
+<img alt="SaaS Platform" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuzCKq4N3gA14sz6_vl3EaB-23yT6WEeLjZVu3K8QVepI3LblT3DF0hxc39QHbgi6QR-DZ8poTvgRlnPDbHRWf1RACWZR-hWXXz3_8acTgDzeWsAOc84hXSpx0vATA5yPQu21HktwPpVshEiy8Ha0_XQfbDWm8_Y0UXsYvTAk1DFbJMN5xiqeDvWLf8YkHTCnXx_1vgA16X2TrHD4_8OQD0UyTPp_6BCNpBZFFXuuddGs_kppUY1q09UKZEizXr3wZ5na4yS9FPyQ"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/90 backdrop-blur-md text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">SaaS</span>
+</div>
+</div>
+<div class="p-8 flex flex-col grow">
+<h3 class="text-xl font-bold mb-2">FlowState CMS</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                            A headless content management system optimized for lightning-fast performance and seamless developer experience.
+                        </p>
+<div class="flex items-center justify-between mt-auto">
+<div class="flex gap-2">
+<span class="text-[10px] bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded font-medium">Node.js</span>
+<span class="text-[10px] bg-slate-100 dark:bg-slate-700 px-2 py-1 rounded font-medium">PostgreSQL</span>
+</div>
+<a class="text-primary flex items-center gap-1 font-bold text-sm" href="#">
+                                Details <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Experience Section (Roadmap) -->
+<section class="py-24 relative" id="experience">
+<div class="max-w-4xl mx-auto px-6">
+<h2 class="text-4xl font-black mb-16 text-center">My Career Roadmap</h2>
+<div class="relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 md:ml-0 md:left-1/2 md:-translate-x-[1px]">
+<!-- Experience 1 (Right on md+) -->
+<div class="mb-16 relative">
+<div class="absolute top-0 -left-[11px] md:left-1/2 md:-translate-x-1/2 size-5 bg-primary rounded-full border-4 border-background-light dark:border-background-dark"></div>
+<div class="ml-10 md:ml-1/2 md:pl-12">
+<span class="text-primary font-bold text-sm">2021 — Present</span>
+<h3 class="text-2xl font-bold mt-1">Senior Full Stack Engineer</h3>
+<p class="text-slate-500 dark:text-slate-400 font-medium mb-4">TechFlow Solutions</p>
+<ul class="flex flex-col gap-2 text-slate-500 dark:text-slate-500 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">check_circle</span>
+<span>Led a team of 5 developers to rewrite the core microservices architecture.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">check_circle</span>
+<span>Improved platform performance by 40% using specialized caching strategies.</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Experience 2 (Left on md+) -->
+<div class="mb-16 relative">
+<div class="absolute top-0 -left-[11px] md:left-1/2 md:-translate-x-1/2 size-5 bg-slate-300 dark:bg-slate-700 rounded-full border-4 border-background-light dark:border-background-dark"></div>
+<div class="ml-10 md:ml-0 md:w-1/2 md:pr-12 md:text-right">
+<span class="text-primary font-bold text-sm">2019 — 2021</span>
+<h3 class="text-2xl font-bold mt-1">Web Developer</h3>
+<p class="text-slate-500 dark:text-slate-400 font-medium mb-4">Starlight Creative Agency</p>
+<ul class="flex flex-col gap-2 text-slate-500 dark:text-slate-500 text-sm md:items-end">
+<li class="flex items-start md:flex-row-reverse gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">check_circle</span>
+<span>Delivered 20+ custom client websites using React and Headless CMS.</span>
+</li>
+<li class="flex items-start md:flex-row-reverse gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">check_circle</span>
+<span>Developed a reusable component library reducing dev time by 30%.</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Experience 3 (Right on md+) -->
+<div class="relative">
+<div class="absolute top-0 -left-[11px] md:left-1/2 md:-translate-x-1/2 size-5 bg-slate-300 dark:bg-slate-700 rounded-full border-4 border-background-light dark:border-background-dark"></div>
+<div class="ml-10 md:ml-1/2 md:pl-12">
+<span class="text-primary font-bold text-sm">2018 — 2019</span>
+<h3 class="text-2xl font-bold mt-1">Junior Developer</h3>
+<p class="text-slate-500 dark:text-slate-400 font-medium mb-4">BrightSeed Labs</p>
+<ul class="flex flex-col gap-2 text-slate-500 dark:text-slate-500 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">check_circle</span>
+<span>Assisted in maintaining core legacy Python applications.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-sm mt-0.5">check_circle</span>
+<span>Automated internal reporting tasks using shell scripting.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Skills Section -->
+<section class="py-24 bg-slate-50 dark:bg-slate-900/50" id="skills">
+<div class="max-w-7xl mx-auto px-6 text-center">
+<h2 class="text-4xl font-black mb-16">Technical Arsenal</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+<!-- Frontend -->
+<div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">brush</span>
+</div>
+<h3 class="text-lg font-bold tracking-tight">Frontend</h3>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">React.js</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Next.js</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Tailwind</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">TypeScript</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Vue.js</span>
+</div>
+</div>
+<!-- Backend -->
+<div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">database</span>
+</div>
+<h3 class="text-lg font-bold tracking-tight">Backend</h3>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Node.js</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Python</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">PostgreSQL</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Redis</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">GraphQL</span>
+</div>
+</div>
+<!-- Tools & Platforms -->
+<div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">terminal</span>
+</div>
+<h3 class="text-lg font-bold tracking-tight">Tools</h3>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Docker</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">AWS</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Git</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Figma</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Vercel</span>
+</div>
+</div>
+<!-- Techniques -->
+<div class="bg-white dark:bg-slate-800 p-6 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col">
+<div class="flex items-center gap-3 mb-6">
+<div class="size-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">psychology</span>
+</div>
+<h3 class="text-lg font-bold tracking-tight">Techniques</h3>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">TDD</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">CI/CD</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Performance</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">Agile</span>
+<span class="px-3 py-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs font-semibold">SEO</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-24" id="contact">
+<div class="max-w-7xl mx-auto px-6">
+<div class="bg-primary/5 border border-primary/10 rounded-[3rem] p-12 lg:p-20 overflow-hidden relative text-center">
+<div class="absolute -bottom-24 -right-24 size-96 bg-primary/10 blur-[100px] rounded-full"></div>
+<div class="relative z-10 max-w-2xl mx-auto">
+<h2 class="text-4xl lg:text-5xl font-black mb-6 leading-tight">Let's build something <span class="text-primary underline decoration-4 underline-offset-8">extraordinary</span> together.</h2>
+<p class="text-lg text-slate-500 dark:text-slate-400 mb-12">
+                        Currently open to new opportunities and freelance projects. I usually respond within 24 hours.
+                    </p>
+<div class="flex flex-col items-center gap-8">
+<div class="flex flex-wrap justify-center gap-6">
+<a class="flex items-center gap-3 bg-white dark:bg-slate-800 px-6 py-4 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors group" href="mailto:alex.rivers@dev.io">
+<div class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">mail</span>
+</div>
+<span class="font-bold">alex.rivers@dev.io</span>
+</a>
+<div class="flex items-center gap-3 bg-white dark:bg-slate-800 px-6 py-4 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700">
+<div class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-xl">location_on</span>
+</div>
+<span class="font-bold">San Francisco, CA</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<a class="size-12 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-700 dark:text-slate-300 hover:bg-primary hover:text-white transition-all" href="#">
+<svg class="size-6 fill-current" viewbox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+</a>
+<a class="size-12 rounded-full bg-slate-200 dark:bg-slate-800 flex items-center justify-center text-slate-700 dark:text-slate-300 hover:bg-primary hover:text-white transition-all" href="#">
+<svg class="size-6 fill-current" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="py-12 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 text-slate-500 dark:text-slate-400">
+<div class="flex items-center gap-3">
+<div class="bg-slate-200 dark:bg-slate-800 p-1.5 rounded-md flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-900 dark:text-white text-sm">code</span>
+</div>
+<span class="font-bold text-slate-900 dark:text-white">Alex Rivers</span>
+</div>
+<p class="text-sm">© 2024 Alex Rivers. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="size-5 fill-current" viewbox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="size-5 fill-current" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+<a class="hover:text-primary transition-colors" href="#">
+<svg class="size-5 fill-current" viewbox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+</a>
+</div>
+</div>
+</footer>
+</body></html>
