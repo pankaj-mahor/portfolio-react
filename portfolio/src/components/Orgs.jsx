@@ -63,7 +63,7 @@ export default function Orgs() {
             </div>
           </div>
         ))}
-        {/* <div className="relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 md:ml-0 md:left-1/2 md:-translate-x-px"></div> */}
+        <div className="relative border-l-2 border-slate-200 dark:border-slate-800 ml-4 md:ml-0 md:left-1/2 md:-translate-x-px"></div>
       </div>
     </section>
   );

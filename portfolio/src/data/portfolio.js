@@ -39,10 +39,30 @@ export const projects = [
       "Integrated Payment Gateway APIs and multi-vendor supported application for Cash In Exchange of ATM.",
     link: null,
   },
-  { name: "Zynk.money", type: "B2B Fintech", description: "Financial dashboard & transaction platform.", link: null },
-  { name: "Orbit", type: "Web3", description: "Blockchain liquidity provider platform.", link: null },
-  { name: "JCURVE", type: "LMS", description: "Skill-gap analysis & learning platform.", link: null },
-  { name: "IBC Media", type: "Events", description: "Hackathon and developer event platform.", link: null },
+  {
+    name: "Zynk.money",
+    type: "B2B Fintech",
+    description: "Financial dashboard & transaction platform.",
+    link: null,
+  },
+  {
+    name: "Orbit",
+    type: "Web3",
+    description: "Blockchain liquidity provider platform.",
+    link: null,
+  },
+  {
+    name: "JCURVE",
+    type: "LMS",
+    description: "Skill-gap analysis & learning platform.",
+    link: null,
+  },
+  {
+    name: "IBC Media",
+    type: "Events",
+    description: "Hackathon and developer event platform.",
+    link: null,
+  },
 ];
 
 export const skills = {
@@ -103,6 +123,8 @@ export const orgs = [
       "REST APIs",
       "Web3",
       "Performance optimization",
+      "NodeJS",
+      "ExpressJS",
     ],
   },
   {
@@ -120,7 +142,28 @@ export const orgs = [
       "Developed user management, NFT flows, content engines, and assessment modules.",
       "Built dashboards, LMS workflows, and admin portals.",
     ],
-    tech: ["React", "Redux", "Tailwind CSS", "REST APIs", "Web3"],
+    tech: [
+      "React",
+      "Redux",
+      "Tailwind CSS",
+      "REST APIs",
+      "Web3",
+      "NodeJS",
+      "ExpressJS",
+    ],
+  },
+  {
+    name: "TechnoOwls Technologies Pvt Ltd",
+    role: "HTML Developer (Intern)",
+    period: "Jan 2021 – Jun 2021",
+    location: "Remote",
+    products: ["Landing Pages", "HTML Emails", "HTML Templates"],
+    highlights: [
+      "Designed and developed responsive landing pages using HTML, CSS, and Bootstrap.",
+      "Coded HTML email templates optimized for deliverability and compatibility.",
+      "Implemented pixel-perfect web designs ensuring seamless experience across devices.",
+    ],
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
 ];
 
@@ -129,4 +172,5 @@ export const contact = {
   phone: "7053250135",
   location: "Ghaziabad, Uttar Pradesh",
   linkedin: "https://www.linkedin.com/in/pankaj-mahor/",
+  github: "https://github.com/pankaj-mahor",
 };
