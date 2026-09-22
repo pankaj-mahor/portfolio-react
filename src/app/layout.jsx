@@ -56,6 +56,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`dark ${inter.variable} ${outfit.variable}`} suppressHydrationWarning>
+    <meta name="google-site-verification" content="aSn1f9QMRT54f8_Gq_Hu6cmWNZ-6oHlI6BqR7MYJqy8" />
       <body className="min-h-screen bg-background-light font-sans text-slate-900 antialiased dark:bg-background-dark dark:text-slate-100">
         <Script id="theme-init" strategy="beforeInteractive">
           {`(function(){try{var t=localStorage.getItem("theme");if(t==="light"){document.documentElement.classList.remove("dark");}else{document.documentElement.classList.add("dark");}}catch(e){document.documentElement.classList.add("dark");}})();`}
