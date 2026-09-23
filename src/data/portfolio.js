@@ -6,7 +6,8 @@ export const profile = {
     "Senior Frontend Engineer with 4+ years of experience building and scaling production applications across FinTech, SaaS, Web3, and E-commerce.",
   email: "pankajmahor.dev@gmail.com",
   phone: "7053250135",
-  location: "Ghaziabad, Uttar Pradesh",
+  location: "Ghaziabad · Noida · Gurugram",
+  availability: "Remote & Freelance",
   linkedin: "https://www.linkedin.com/in/pankaj-mahor/",
 };
 
@@ -212,7 +213,8 @@ export const orgs = [
 export const contact = {
   email: "pankajmahor.dev@gmail.com",
   phone: "7053250135",
-  location: "Ghaziabad, Uttar Pradesh",
+  location: "Ghaziabad · Noida · Gurugram",
+  availability: "Remote & Freelance",
   linkedin: "https://www.linkedin.com/in/pankaj-mahor/",
   github: "https://github.com/pankaj-mahor",
 };

@@ -6,14 +6,13 @@ import Skills from "@/components/Skills";
 import Orgs from "@/components/Orgs";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { profile } from "@/data/portfolio";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, defaultDescription, defaultTitle } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Software Engineer - Frontend Engineer",
-  description: `${profile.tagline} Based in ${profile.location}.`,
+  title: "Software Engineer, Frontend Developer & Full Stack Developer",
+  description: defaultDescription,
   path: "/",
-  ogTitle: `${profile.name} | Software Engineer - Frontend Engineer`,
+  ogTitle: defaultTitle,
 });
 
 export default function HomePage() {

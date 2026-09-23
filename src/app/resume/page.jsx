@@ -6,10 +6,10 @@ import { buildMetadata } from "@/lib/seo";
 const RESUME_HREF = "/pankaj_resume_frontend.pdf";
 
 export const metadata = buildMetadata({
-  title: "Resume",
-  description: `Download the resume of ${profile.name}, ${profile.title}. ${profile.tagline}`,
+  title: "Resume — Software Engineer & Frontend Developer",
+  description: `Resume of ${profile.name}, Software Engineer, Frontend Developer, and Full Stack Developer. ${profile.tagline}`,
   path: "/resume",
-  ogTitle: `${profile.name} | Resume`,
+  ogTitle: `${profile.name} | Software Engineer Resume`,
 });
 
 export default function ResumePage() {

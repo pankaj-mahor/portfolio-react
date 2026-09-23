@@ -38,7 +38,8 @@ export default function Contact() {
                 together.
               </h2>
               <p className="mb-8 text-lg text-slate-400">
-                Open to new opportunities and freelance projects. I usually respond within 24 hours.
+                Open to roles in Noida, Gurugram, and Ghaziabad, plus remote and freelance
+                projects. I usually respond within 24 hours.
               </p>
               <div className="flex items-center gap-4">
                 <a
@@ -93,6 +94,7 @@ export default function Contact() {
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">Location</p>
                   <p className="font-bold text-white">{contact.location}</p>
+                  <p className="text-xs font-medium text-slate-400">{contact.availability}</p>
                 </div>
               </div>
             </div>

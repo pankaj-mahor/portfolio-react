@@ -19,17 +19,23 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            Available for Work
+            Available · Remote · Freelance
           </div>
           <div>
-            <h1 className="font-display mb-6 text-5xl font-black leading-[1.08] tracking-tight text-white md:text-7xl">
+            <h1 className="font-display mb-6 text-5xl font-black leading-[1.08] tracking-tight text-slate-900 md:text-7xl dark:text-white">
               {profile.name.split(" ")[0]}{" "}
               <span className="bg-gradient-to-r from-primary to-cyan-400 bg-clip-text text-transparent">
                 {profile.name.split(" ")[1]}
               </span>
             </h1>
-            <p className="mb-4 text-xl font-medium text-slate-300 md:text-2xl">{profile.title}</p>
-            <p className="max-w-lg text-lg leading-relaxed text-slate-400">{profile.tagline}</p>
+            <p className="mb-4 text-xl font-medium text-slate-600 md:text-2xl dark:text-slate-300">
+              Software Engineer · Frontend Developer · Full Stack Developer
+            </p>
+            <p className="max-w-lg text-lg leading-relaxed text-slate-500 dark:text-slate-400">
+              {profile.tagline} Based in Ghaziabad, Noida, and Gurugram, and available for
+              remote and freelance work. I design and ship production React, Next.js, and
+              Node.js applications as a frontend and full stack software engineer.
+            </p>
           </div>
           <div className="flex flex-wrap gap-4">
             <Link

@@ -30,10 +30,18 @@ This app uses Netlify’s Next.js runtime (`@netlify/plugin-nextjs`).
 
 ## SEO
 
-Set the public site URL before deploying (optional on Netlify):
+Set the public site URL in Netlify so Google uses the real domain:
 
 ```
 NEXT_PUBLIC_SITE_URL=https://your-domain.com
 ```
 
 This is used for canonical URLs, Open Graph tags, `sitemap.xml`, and `robots.txt`.
+
+To get indexed in Google:
+
+1. Deploy the site on a stable URL (custom domain is better than a changing Netlify preview).
+2. Open [Google Search Console](https://search.google.com/search-console), add the property, and verify it (verification tags are already in the site metadata).
+3. Submit `https://your-domain.com/sitemap.xml`.
+4. Use **URL Inspection → Request indexing** on `/` and `/resume`.
+5. Share the site from LinkedIn, GitHub, and your resume so Google sees real links to your name.
