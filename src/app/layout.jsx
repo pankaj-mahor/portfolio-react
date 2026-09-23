@@ -51,6 +51,8 @@ export const metadata = {
   icons: {
     icon: "/favicon.png",
   },
+  googleSiteVerification: "kaTo7Wd3sPaolO7sypHBK7z_Up5ixoEVl6Ac64qGvKs",
+
 };
 
 export default function RootLayout({ children }) {
@@ -61,6 +63,22 @@ export default function RootLayout({ children }) {
         <Script id="theme-init" strategy="beforeInteractive">
           {`(function(){try{var t=localStorage.getItem("theme");if(t==="light"){document.documentElement.classList.remove("dark");}else{document.documentElement.classList.add("dark");}}catch(e){document.documentElement.classList.add("dark");}})();`}
         </Script>
+        
+        <Script
+          id="clarity-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              })(window, document, "clarity", "script", "ymoiayqv1v");
+            `,
+          }}
+        />
+  
+
         <meta name="google-site-verification" content="KaTo7Wd3sPaolO7sypHBK7z_Up5ixoEVl6Ac64qGvKs" />
         <JsonLd />
         <ThemeProvider>
